@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@media screen and (min-width: 320px) and (max-width: 767px){
+    body{
+        background-image: linear-gradient(to bottom, #3e1c33, #b14623);
+        height: 175vh;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    section#login{
+        width: 90vw;
+        height: 2050px;
+        display: flex;
+    }
+    section > div.descriçao{
+        margin-left: 100px;
+        width: 90%;
+    }
+    section > div.descriçao > h1{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    section > div.descriçao > div#imagem{
+        display: flex;
+        margin-left: 25px;
+        justify-content: center;
+    }
+    section > div.descriçao > p{
+        font-size: 0.9em;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    section > div.cont_descri{
+        margin-top: 20px;
+    }
+    section#login > div#formulario{
+        width: 100%;
+        padding: 20px;
+        margin-top: 1385px;
+        margin-left: 5px ;
+        transform: translateX(0);
+    }
+
+    div#formulario > div#usu_img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    div#formulario > p{
+        font-size: 0.9em;
+        margin: 10px 0px;
+    }
+    
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    body{
+        background-image: linear-gradient(to top, #3e1c33, #b14623);
+    }
+
+    section#login{
+        width: 80vw;
+        height: 780px;
+        display: flex;
+    }
+
+
+    section#login > div#formulario{
+        width: 70%;
+    }
+
+}
+
+@media screen and (min-width: 992px){
+
+    body{
+        background-image: linear-gradient(to bottom, #3e1c33, #b14623);
+    }
+
+    section#login{
+        width: 1050px;
+        height: 750px;
+    }
+
+
+    section#login > div#formulario{
+        width: 50%;
+    }
+
+    div#formulario > h1{
+        font-size: 2em;
+    }
+
+    div#formulario > p{
+        font-size: 1em;
+        margin: 20px 0px;
+    }
+}
